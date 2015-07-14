@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="excelconvertertest" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Programy\\C\#\\Praktyka_S_Wojcik\\Project\\ExcelConverter\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\Programy\\C\#\\Praktyka_S_Wojcik\\Project\\ExcelConverter\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="excelconvertertest/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\Programy\\C\#\\Praktyka_S_Wojcik\\Project\\ExcelConverter\\obj\\Debug\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="SQLite-Web.config Connection String" description="" value="Data Source=|DataDirectory|\database\ExcelConverter.sqlite; Version=3;PRAGMA locking_mode=EXCLUSIVE;" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\Programy\\C\#\\Praktyka_S_Wojcik\\Project\\ExcelConverter\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SQLite']/@connectionString" />
+  </parameter>
+</parameters>
